@@ -1,0 +1,38 @@
+.element-container {
+}
+
+.element-child {
+  margin-left: 1rem;
+}
+
+.elements-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.element-content-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  padding: 0.25rem;
+  margin-left: 0.5rem;
+  font-size: 1.5rem;
+
+  &:hover {
+    background-color: lightgray;
+    cursor: pointer;
+  }
+
+  &:active {
+    background-color: darkgray;
+  }
+
+  &.file {
+    margin-left: 1.75rem;
+  }
+}

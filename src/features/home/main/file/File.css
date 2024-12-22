@@ -1,0 +1,9 @@
+.file-container-content {
+  margin-left: 1.5rem;
+}
+
+p {
+  display: block;
+  margin: 0.35rem 0;
+  font-size: 1.75rem;
+}

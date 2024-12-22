@@ -1,0 +1,8 @@
+.folder-item-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 140px;
+  height: 90px;
+  background-color: lightgray;
+}

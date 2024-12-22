@@ -1,0 +1,15 @@
+.triangle-closed {
+  width: 0; /* No width */
+  height: 0; /* No height */
+  border-top: 10px solid transparent; /* Top side: transparent */
+  border-bottom: 10px solid transparent; /* Bottom side: transparent */
+  border-left: 20px solid black; /* Left side: black (outline) */
+}
+
+.triangle-open {
+  width: 0; /* No width */
+  height: 0; /* No height */
+  border-left: 10px solid transparent; /* Left side: transparent */
+  border-right: 10px solid transparent; /* Right side: transparent */
+  border-top: 20px solid black; /* Top side: black (outline) */
+}

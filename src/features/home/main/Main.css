@@ -1,0 +1,13 @@
+.content-wrapper {
+  border: 2px solid black;
+  border-top: none;
+  border-left: none;
+  flex: 1;
+  padding: 4rem 2rem;
+  display: flex;
+  overflow: auto;
+}
+
+h2 {
+  margin: 1.5rem;
+}

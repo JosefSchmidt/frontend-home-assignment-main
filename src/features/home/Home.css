@@ -1,0 +1,19 @@
+.home-container {
+  height: 100%;
+}
+
+.home-wrapper {
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 2rem;
+}
+
+.content-container {
+  display: flex;
+  height: calc(100% - 80px);
+}
+
+.side-bar {
+  min-width: 300px;
+  flex: 0 1 auto;
+}
