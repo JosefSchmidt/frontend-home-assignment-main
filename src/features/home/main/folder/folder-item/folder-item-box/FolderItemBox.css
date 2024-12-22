@@ -5,4 +5,8 @@
   width: 140px;
   height: 90px;
   background-color: lightgray;
+
+  &:hover {
+    background-color: gray;
+  }
 }

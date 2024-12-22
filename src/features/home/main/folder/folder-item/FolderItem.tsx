@@ -1,12 +1,28 @@
 import React from 'react';
 import './FolderItem.css';
 import FolderItemBox from './folder-item-box/FolderItemBox';
+import UseHomeContext from '../../../hooks/UseHomeContext';
+import useSideBarHandler from '../../../hooks/UseSideBarHandler';
 
-const FolderItem = ({ title }: SideBarElementItem) => {
+const FolderItem = ({
+  id,
+  title,
+  type,
+  active,
+  children,
+}: SideBarElementItem) => {
+  const { onSelectElementHandler } = UseHomeContext();
+  const { onSideBarElementToggle } = useSideBarHandler();
+
+  const onFolderClickHandler = () => {
+    onSideBarElementToggle(id);
+    onSelectElementHandler({ id, title, type, children, active });
+  };
+
   return (
-    <div className="folder-item-container">
+    <div className="folder-item-container" onClick={onFolderClickHandler}>
       <FolderItemBox />
-      <p>{title}</p>
+      <p className="folder-title">{title}</p>
     </div>
   );
 };

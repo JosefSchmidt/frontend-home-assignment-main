@@ -81,4 +81,7 @@ fetch('http://localhost:8010/api/v1/tree');
 
 ## Your notes
 
+
+I started the 22 december 2024 at 10 AM and I finished at 1:47 PM :) 
+
 ...

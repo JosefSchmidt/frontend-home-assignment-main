@@ -14,7 +14,7 @@ const Folder = ({ children }: SideBarElementItem) => {
         if ([doc, image].includes(element.type))
           return <FileItem {...element} />;
       })}
-      {children.length === 0 && <h1>There are no elements to display</h1>}
+      {children?.length === 0 && <h1>There are no elements to display</h1>}
     </div>
   );
 };
